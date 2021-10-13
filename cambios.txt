@@ -1,0 +1,10 @@
+1.- El constructor en la clase Emisor debe estar publico
+2.- El constructor en la clase Main tambien es Protected 
+3.- Se esta usando un $this->array_data en la funcion createXML() pero era una funcion estatica osea que no se sabe el contexto
+
+4.- el metodo setSatFormat esta protected hay que ponerlo publico
+
+5.- Se creo un atributo de tipo XML para settear los atributos y los valores en la clase XML
+
+6.- se quito el protectes de la funcion getNode de la clase CFDI  para poder imprimirlo
+7.- otro error es que se esta llamando las reglas de la clase y ese arreglo esta vacio, por eso fue necesario utilizar las reglas de la clase comprobante 
